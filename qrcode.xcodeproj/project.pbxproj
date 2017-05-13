@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2437FCC71E3204E10072DA94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437FCC61E3204E10072DA94 /* AppDelegate.swift */; };
+		2437FCC91E3204E10072DA94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437FCC81E3204E10072DA94 /* ViewController.swift */; };
+		2437FCCC1E3204E10072DA94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2437FCCA1E3204E10072DA94 /* Main.storyboard */; };
+		2437FCCE1E3204E10072DA94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2437FCCD1E3204E10072DA94 /* Assets.xcassets */; };
+		2437FCD11E3204E10072DA94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2437FCCF1E3204E10072DA94 /* LaunchScreen.storyboard */; };
+		2437FCDA1E32098D0072DA94 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437FCD81E32098D0072DA94 /* QRScannerController.swift */; };
+		2437FCDB1E32098D0072DA94 /* QRScannerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2437FCD91E32098D0072DA94 /* QRScannerController.xib */; };
+		6A49CD441E98EA2F00E91400 /* QRCodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A49CD431E98EA2F00E91400 /* QRCodeManager.swift */; };
+		6A7A7E171E73F66500C074D6 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7A7E151E73F66500C074D6 /* GoogleMobileAds.framework */; };
+		6A7A7E181E73F66500C074D6 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E161E73F66500C074D6 /* README.txt */; };
+		6A7A7E1B1E78432C00C074D6 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E191E740AB000C074D6 /* mail.png */; };
+		6A7A7E681E785C5000C074D6 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E4D1E785C5000C074D6 /* Contents.json */; };
+		6A7A7E691E785C5000C074D6 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E4E1E785C5000C074D6 /* Icon-App-20x20@1x.png */; };
+		6A7A7E6A1E785C5000C074D6 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E4F1E785C5000C074D6 /* Icon-App-20x20@2x.png */; };
+		6A7A7E6B1E785C5000C074D6 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E501E785C5000C074D6 /* Icon-App-20x20@3x.png */; };
+		6A7A7E6C1E785C5000C074D6 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E511E785C5000C074D6 /* Icon-App-29x29@1x.png */; };
+		6A7A7E6D1E785C5000C074D6 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E521E785C5000C074D6 /* Icon-App-29x29@2x.png */; };
+		6A7A7E6E1E785C5000C074D6 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E531E785C5000C074D6 /* Icon-App-29x29@3x.png */; };
+		6A7A7E6F1E785C5000C074D6 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E541E785C5000C074D6 /* Icon-App-40x40@1x.png */; };
+		6A7A7E701E785C5000C074D6 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E551E785C5000C074D6 /* Icon-App-40x40@2x.png */; };
+		6A7A7E711E785C5000C074D6 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E561E785C5000C074D6 /* Icon-App-40x40@3x.png */; };
+		6A7A7E721E785C5000C074D6 /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E571E785C5000C074D6 /* Icon-App-57x57@1x.png */; };
+		6A7A7E731E785C5000C074D6 /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E581E785C5000C074D6 /* Icon-App-57x57@2x.png */; };
+		6A7A7E741E785C5000C074D6 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E591E785C5000C074D6 /* Icon-App-60x60@1x.png */; };
+		6A7A7E751E785C5000C074D6 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E5A1E785C5000C074D6 /* Icon-App-60x60@2x.png */; };
+		6A7A7E761E785C5000C074D6 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E5B1E785C5000C074D6 /* Icon-App-60x60@3x.png */; };
+		6A7A7E771E785C5000C074D6 /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E5C1E785C5000C074D6 /* Icon-App-72x72@1x.png */; };
+		6A7A7E781E785C5000C074D6 /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E5D1E785C5000C074D6 /* Icon-App-72x72@2x.png */; };
+		6A7A7E791E785C5000C074D6 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E5E1E785C5000C074D6 /* Icon-App-76x76@1x.png */; };
+		6A7A7E7A1E785C5000C074D6 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E5F1E785C5000C074D6 /* Icon-App-76x76@2x.png */; };
+		6A7A7E7B1E785C5000C074D6 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E601E785C5000C074D6 /* Icon-App-76x76@3x.png */; };
+		6A7A7E7C1E785C5000C074D6 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E611E785C5000C074D6 /* Icon-App-83.5x83.5@2x.png */; };
+		6A7A7E7D1E785C5000C074D6 /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E621E785C5000C074D6 /* Icon-Small-50x50@1x.png */; };
+		6A7A7E7E1E785C5000C074D6 /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E631E785C5000C074D6 /* Icon-Small-50x50@2x.png */; };
+		6A7A7E7F1E785C5000C074D6 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E641E785C5000C074D6 /* iTunesArtwork@1x.png */; };
+		6A7A7E801E785C5000C074D6 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E651E785C5000C074D6 /* iTunesArtwork@2x.png */; };
+		6A7A7E811E785C5000C074D6 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E661E785C5000C074D6 /* iTunesArtwork@3x.png */; };
+		6A7A7E821E785C5000C074D6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7E671E785C5000C074D6 /* README.md */; };
+		6A7A7E851E7ED38900C074D6 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7E831E7ED38900C074D6 /* RecordViewController.swift */; };
+		6A7A7E861E7ED38900C074D6 /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E841E7ED38900C074D6 /* RecordViewController.xib */; };
+		6A7A7E891E8FB43F00C074D6 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7E871E8FB43F00C074D6 /* RecordTableViewCell.swift */; };
+		6A7A7E8A1E8FB43F00C074D6 /* RecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7E881E8FB43F00C074D6 /* RecordTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2437FCC31E3204E10072DA94 /* qrcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qrcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2437FCC61E3204E10072DA94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2437FCC81E3204E10072DA94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2437FCCB1E3204E10072DA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2437FCCD1E3204E10072DA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2437FCD01E3204E10072DA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2437FCD21E3204E10072DA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2437FCD81E32098D0072DA94 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		2437FCD91E32098D0072DA94 /* QRScannerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRScannerController.xib; sourceTree = "<group>"; };
+		6A49CD431E98EA2F00E91400 /* QRCodeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeManager.swift; sourceTree = "<group>"; };
+		6A7A7E151E73F66500C074D6 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		6A7A7E161E73F66500C074D6 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		6A7A7E191E740AB000C074D6 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		6A7A7E4D1E785C5000C074D6 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		6A7A7E4E1E785C5000C074D6 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		6A7A7E4F1E785C5000C074D6 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		6A7A7E501E785C5000C074D6 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		6A7A7E511E785C5000C074D6 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		6A7A7E521E785C5000C074D6 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		6A7A7E531E785C5000C074D6 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		6A7A7E541E785C5000C074D6 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		6A7A7E551E785C5000C074D6 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		6A7A7E561E785C5000C074D6 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		6A7A7E571E785C5000C074D6 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		6A7A7E581E785C5000C074D6 /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		6A7A7E591E785C5000C074D6 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		6A7A7E5A1E785C5000C074D6 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		6A7A7E5B1E785C5000C074D6 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		6A7A7E5C1E785C5000C074D6 /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		6A7A7E5D1E785C5000C074D6 /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		6A7A7E5E1E785C5000C074D6 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		6A7A7E5F1E785C5000C074D6 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		6A7A7E601E785C5000C074D6 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		6A7A7E611E785C5000C074D6 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		6A7A7E621E785C5000C074D6 /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		6A7A7E631E785C5000C074D6 /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
+		6A7A7E641E785C5000C074D6 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		6A7A7E651E785C5000C074D6 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		6A7A7E661E785C5000C074D6 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		6A7A7E671E785C5000C074D6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6A7A7E831E7ED38900C074D6 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		6A7A7E841E7ED38900C074D6 /* RecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordViewController.xib; sourceTree = "<group>"; };
+		6A7A7E871E8FB43F00C074D6 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		6A7A7E881E8FB43F00C074D6 /* RecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2437FCC01E3204E10072DA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7A7E171E73F66500C074D6 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2437FCBA1E3204E10072DA94 = {
+			isa = PBXGroup;
+			children = (
+				2437FCC51E3204E10072DA94 /* qrcode */,
+				2437FCC41E3204E10072DA94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2437FCC41E3204E10072DA94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2437FCC31E3204E10072DA94 /* qrcode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2437FCC51E3204E10072DA94 /* qrcode */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A7E4B1E785C5000C074D6 /* icon */,
+				6A7A7E191E740AB000C074D6 /* mail.png */,
+				6A7A7E131E73F49700C074D6 /* Utility */,
+				2437FCC61E3204E10072DA94 /* AppDelegate.swift */,
+				2437FCC81E3204E10072DA94 /* ViewController.swift */,
+				2437FCCA1E3204E10072DA94 /* Main.storyboard */,
+				2437FCCD1E3204E10072DA94 /* Assets.xcassets */,
+				2437FCCF1E3204E10072DA94 /* LaunchScreen.storyboard */,
+				2437FCD21E3204E10072DA94 /* Info.plist */,
+				2437FCD81E32098D0072DA94 /* QRScannerController.swift */,
+				2437FCD91E32098D0072DA94 /* QRScannerController.xib */,
+				6A7A7E831E7ED38900C074D6 /* RecordViewController.swift */,
+				6A7A7E841E7ED38900C074D6 /* RecordViewController.xib */,
+				6A7A7E871E8FB43F00C074D6 /* RecordTableViewCell.swift */,
+				6A7A7E881E8FB43F00C074D6 /* RecordTableViewCell.xib */,
+				6A49CD431E98EA2F00E91400 /* QRCodeManager.swift */,
+			);
+			path = qrcode;
+			sourceTree = "<group>";
+		};
+		6A7A7E131E73F49700C074D6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A7E141E73F66500C074D6 /* GoogleMobileAdsSdkiOS-7.18.0 */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		6A7A7E141E73F66500C074D6 /* GoogleMobileAdsSdkiOS-7.18.0 */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A7E151E73F66500C074D6 /* GoogleMobileAds.framework */,
+				6A7A7E161E73F66500C074D6 /* README.txt */,
+			);
+			path = "GoogleMobileAdsSdkiOS-7.18.0";
+			sourceTree = "<group>";
+		};
+		6A7A7E4B1E785C5000C074D6 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A7E4C1E785C5000C074D6 /* AppIcon.appiconset */,
+				6A7A7E641E785C5000C074D6 /* iTunesArtwork@1x.png */,
+				6A7A7E651E785C5000C074D6 /* iTunesArtwork@2x.png */,
+				6A7A7E661E785C5000C074D6 /* iTunesArtwork@3x.png */,
+				6A7A7E671E785C5000C074D6 /* README.md */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		6A7A7E4C1E785C5000C074D6 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A7E4D1E785C5000C074D6 /* Contents.json */,
+				6A7A7E4E1E785C5000C074D6 /* Icon-App-20x20@1x.png */,
+				6A7A7E4F1E785C5000C074D6 /* Icon-App-20x20@2x.png */,
+				6A7A7E501E785C5000C074D6 /* Icon-App-20x20@3x.png */,
+				6A7A7E511E785C5000C074D6 /* Icon-App-29x29@1x.png */,
+				6A7A7E521E785C5000C074D6 /* Icon-App-29x29@2x.png */,
+				6A7A7E531E785C5000C074D6 /* Icon-App-29x29@3x.png */,
+				6A7A7E541E785C5000C074D6 /* Icon-App-40x40@1x.png */,
+				6A7A7E551E785C5000C074D6 /* Icon-App-40x40@2x.png */,
+				6A7A7E561E785C5000C074D6 /* Icon-App-40x40@3x.png */,
+				6A7A7E571E785C5000C074D6 /* Icon-App-57x57@1x.png */,
+				6A7A7E581E785C5000C074D6 /* Icon-App-57x57@2x.png */,
+				6A7A7E591E785C5000C074D6 /* Icon-App-60x60@1x.png */,
+				6A7A7E5A1E785C5000C074D6 /* Icon-App-60x60@2x.png */,
+				6A7A7E5B1E785C5000C074D6 /* Icon-App-60x60@3x.png */,
+				6A7A7E5C1E785C5000C074D6 /* Icon-App-72x72@1x.png */,
+				6A7A7E5D1E785C5000C074D6 /* Icon-App-72x72@2x.png */,
+				6A7A7E5E1E785C5000C074D6 /* Icon-App-76x76@1x.png */,
+				6A7A7E5F1E785C5000C074D6 /* Icon-App-76x76@2x.png */,
+				6A7A7E601E785C5000C074D6 /* Icon-App-76x76@3x.png */,
+				6A7A7E611E785C5000C074D6 /* Icon-App-83.5x83.5@2x.png */,
+				6A7A7E621E785C5000C074D6 /* Icon-Small-50x50@1x.png */,
+				6A7A7E631E785C5000C074D6 /* Icon-Small-50x50@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2437FCC21E3204E10072DA94 /* qrcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2437FCD51E3204E10072DA94 /* Build configuration list for PBXNativeTarget "qrcode" */;
+			buildPhases = (
+				2437FCBF1E3204E10072DA94 /* Sources */,
+				2437FCC01E3204E10072DA94 /* Frameworks */,
+				2437FCC11E3204E10072DA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qrcode;
+			productName = qrcode;
+			productReference = 2437FCC31E3204E10072DA94 /* qrcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2437FCBB1E3204E10072DA94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Tony;
+				TargetAttributes = {
+					2437FCC21E3204E10072DA94 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6388AGB659;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2437FCBE1E3204E10072DA94 /* Build configuration list for PBXProject "qrcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2437FCBA1E3204E10072DA94;
+			productRefGroup = 2437FCC41E3204E10072DA94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2437FCC21E3204E10072DA94 /* qrcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2437FCC11E3204E10072DA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7A7E701E785C5000C074D6 /* Icon-App-40x40@2x.png in Resources */,
+				2437FCD11E3204E10072DA94 /* LaunchScreen.storyboard in Resources */,
+				6A7A7E731E785C5000C074D6 /* Icon-App-57x57@2x.png in Resources */,
+				6A7A7E691E785C5000C074D6 /* Icon-App-20x20@1x.png in Resources */,
+				2437FCDB1E32098D0072DA94 /* QRScannerController.xib in Resources */,
+				6A7A7E6B1E785C5000C074D6 /* Icon-App-20x20@3x.png in Resources */,
+				6A7A7E751E785C5000C074D6 /* Icon-App-60x60@2x.png in Resources */,
+				6A7A7E781E785C5000C074D6 /* Icon-App-72x72@2x.png in Resources */,
+				6A7A7E1B1E78432C00C074D6 /* mail.png in Resources */,
+				6A7A7E7D1E785C5000C074D6 /* Icon-Small-50x50@1x.png in Resources */,
+				2437FCCE1E3204E10072DA94 /* Assets.xcassets in Resources */,
+				6A7A7E7C1E785C5000C074D6 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				6A7A7E771E785C5000C074D6 /* Icon-App-72x72@1x.png in Resources */,
+				6A7A7E741E785C5000C074D6 /* Icon-App-60x60@1x.png in Resources */,
+				6A7A7E7A1E785C5000C074D6 /* Icon-App-76x76@2x.png in Resources */,
+				6A7A7E801E785C5000C074D6 /* iTunesArtwork@2x.png in Resources */,
+				6A7A7E711E785C5000C074D6 /* Icon-App-40x40@3x.png in Resources */,
+				6A7A7E7F1E785C5000C074D6 /* iTunesArtwork@1x.png in Resources */,
+				6A7A7E6C1E785C5000C074D6 /* Icon-App-29x29@1x.png in Resources */,
+				6A7A7E7B1E785C5000C074D6 /* Icon-App-76x76@3x.png in Resources */,
+				6A7A7E811E785C5000C074D6 /* iTunesArtwork@3x.png in Resources */,
+				6A7A7E6A1E785C5000C074D6 /* Icon-App-20x20@2x.png in Resources */,
+				6A7A7E6D1E785C5000C074D6 /* Icon-App-29x29@2x.png in Resources */,
+				6A7A7E6F1E785C5000C074D6 /* Icon-App-40x40@1x.png in Resources */,
+				6A7A7E721E785C5000C074D6 /* Icon-App-57x57@1x.png in Resources */,
+				2437FCCC1E3204E10072DA94 /* Main.storyboard in Resources */,
+				6A7A7E8A1E8FB43F00C074D6 /* RecordTableViewCell.xib in Resources */,
+				6A7A7E7E1E785C5000C074D6 /* Icon-Small-50x50@2x.png in Resources */,
+				6A7A7E181E73F66500C074D6 /* README.txt in Resources */,
+				6A7A7E761E785C5000C074D6 /* Icon-App-60x60@3x.png in Resources */,
+				6A7A7E681E785C5000C074D6 /* Contents.json in Resources */,
+				6A7A7E6E1E785C5000C074D6 /* Icon-App-29x29@3x.png in Resources */,
+				6A7A7E791E785C5000C074D6 /* Icon-App-76x76@1x.png in Resources */,
+				6A7A7E861E7ED38900C074D6 /* RecordViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2437FCBF1E3204E10072DA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2437FCC91E3204E10072DA94 /* ViewController.swift in Sources */,
+				2437FCC71E3204E10072DA94 /* AppDelegate.swift in Sources */,
+				6A49CD441E98EA2F00E91400 /* QRCodeManager.swift in Sources */,
+				6A7A7E891E8FB43F00C074D6 /* RecordTableViewCell.swift in Sources */,
+				6A7A7E851E7ED38900C074D6 /* RecordViewController.swift in Sources */,
+				6A7A7E821E785C5000C074D6 /* README.md in Sources */,
+				2437FCDA1E32098D0072DA94 /* QRScannerController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2437FCCA1E3204E10072DA94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2437FCCB1E3204E10072DA94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2437FCCF1E3204E10072DA94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2437FCD01E3204E10072DA94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2437FCD31E3204E10072DA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2437FCD41E3204E10072DA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2437FCD61E3204E10072DA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6388AGB659;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/qrcode/Utility/GoogleMobileAdsSdkiOS-7.18.0",
+				);
+				INFOPLIST_FILE = qrcode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ak2840.qrcode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2437FCD71E3204E10072DA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6388AGB659;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/qrcode/Utility/GoogleMobileAdsSdkiOS-7.18.0",
+				);
+				INFOPLIST_FILE = qrcode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ak2840.qrcode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2437FCBE1E3204E10072DA94 /* Build configuration list for PBXProject "qrcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2437FCD31E3204E10072DA94 /* Debug */,
+				2437FCD41E3204E10072DA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2437FCD51E3204E10072DA94 /* Build configuration list for PBXNativeTarget "qrcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2437FCD61E3204E10072DA94 /* Debug */,
+				2437FCD71E3204E10072DA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2437FCBB1E3204E10072DA94 /* Project object */;
+}

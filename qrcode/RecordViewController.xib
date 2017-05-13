@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecordViewController" customModule="qrcode" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="25n-tS-ybr" id="qwb-5f-Av5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAI-W2-5Et">
+                    <rect key="frame" x="0.0" y="22" width="63" height="49"/>
+                    <color key="backgroundColor" red="0.70980392160000005" green="0.71764705880000002" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="49" id="4N1-zs-I6M"/>
+                        <constraint firstAttribute="width" constant="63" id="XMJ-5C-7vM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="&lt; Back">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="jou-8I-Nh6"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="black" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="25n-tS-ybr">
+                    <rect key="frame" x="0.0" y="75" width="414" height="661"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="separatorInset" minX="30" minY="0.0" maxX="30" maxY="0.0"/>
+                    <color key="sectionIndexColor" red="0.047058823530000002" green="0.086274509799999996" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="E5U-Ac-xgu"/>
+                        <outlet property="delegate" destination="-1" id="yWv-1y-Q77"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMw-Y3-Vzf">
+                    <rect key="frame" x="351" y="22" width="63" height="49"/>
+                    <color key="backgroundColor" red="0.70980392160000005" green="0.71764705880000002" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="63" id="qfe-0A-IA0"/>
+                        <constraint firstAttribute="height" constant="49" id="vwb-xW-vZE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="clear">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <connections>
+                        <action selector="clear:" destination="-1" eventType="touchUpInside" id="6vY-CQ-XyQ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="25n-tS-ybr" secondAttribute="trailing" id="0ux-JX-4ow"/>
+                <constraint firstItem="25n-tS-ybr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7S0-7g-i1n"/>
+                <constraint firstItem="XAI-W2-5Et" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NSH-O3-r5w"/>
+                <constraint firstAttribute="bottom" secondItem="25n-tS-ybr" secondAttribute="bottom" id="Ton-0d-Wg5"/>
+                <constraint firstItem="25n-tS-ybr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="75" id="XbK-A7-5Oc"/>
+                <constraint firstItem="XAI-W2-5Et" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="22" id="Xyo-WM-fWE"/>
+                <constraint firstAttribute="trailing" secondItem="lMw-Y3-Vzf" secondAttribute="trailing" id="Zb4-3w-MVC"/>
+                <constraint firstItem="lMw-Y3-Vzf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="22" id="cht-Xe-fqM"/>
+            </constraints>
+            <point key="canvasLocation" x="38.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
